@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.avtoskola-sigurnost\.mk [NC]
+RewriteRule ^(.*)$ http://avtoskola-sigurnost.mk/$1 [L,R=301]
